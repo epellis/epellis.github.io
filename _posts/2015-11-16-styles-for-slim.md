@@ -1,71 +1,36 @@
 ---
 layout: post
-title:  Styles for slim
-date:   2015-11-16  00:00:00
+title:  2016: A Year in Photography
+date:   2016-01-01  00:00:00
 ---
 
-slim is a simple and beautiful jekyll theme, it has only the essential functions
-so that you can concentrate on the content of your blog.
+After finally getting a phone with a decently competent camera (Nexus 6P), I have
+been able to take some pretty amazing photos of places I've been. All photos were
+taken on auto mode and unedited, save for some basic cropping. In the future, I
+am looking automate a lot of photography with robotics in order to generate
+stunning timelapses and perhaps even pictures of the moon and planets through a
+telescope.
 
-Now, let's have a glance at the basic styles: [link](http://github.com/syaning/vida),
-**strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
+![]({{site.baseurl}}/images/PhotoPortfolio/JapanHouse.png)
+> Japan House, Urbana Illinois
 
-<hr>
+![]({{site.baseurl}}/images/PhotoPortfolio/Chicago.png)
+> Chicago Skyline, Chicago, Illinois
 
-# Header 1
+![]({{site.baseurl}}/images/PhotoPortfolio/SouthQuad.png)
+> South Quad at Evening, Champaign, Illinois
 
-## Header 2
+![]({{site.baseurl}}/images/PhotoPortfolio/Altgeld.png)
+> Altgeld Tower at Sunset, Champaign, Illinois
 
-### Header 3
+![]({{site.baseurl}}/images/PhotoPortfolio/Kayak.png)
+> Placid Lake, Lake Rabun, Georgia
 
-#### Header 4
+![]({{site.baseurl}}/images/PhotoPortfolio/Cochran.png)
+> Mirror Creek, Cochran Shoals, Georgia
 
-##### Header 5
+![]({{site.baseurl}}/images/PhotoPortfolio/SeaIsland.png)
+> Sunset's Gradient, Sea Island, Georgia
 
-###### Header 6
-
-- list item 1
-- list item 2
-- list item 3
-
-1. list item 1
-2. list item 2
-3. list item 3
-
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-![]({{site.baseurl}}/images/image.png)
-
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Fruit</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Alex</td>
-            <td>22</td>
-            <td>Apple</td>
-        </tr>
-        <tr>
-            <td>Bran</td>
-            <td>20</td>
-            <td>Orange</td>
-        </tr>
-        <tr>
-            <td>Mike</td>
-            <td>21</td>
-            <td>Waltermelon</td>
-        </tr>
-    </tbody>
-</table>
-
-```javascript
-// index.js
-var arr = [1, 2, 3, 4, 5];
-var b = arr.map(x => x * x);
-console.log(b);
-```
+![]({{site.baseurl}}/images/PhotoPortfolio/Atlanta.png)
+> Metro Skyline, Atlanta Georgia
