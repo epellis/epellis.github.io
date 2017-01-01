@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  2016: A Year in Photography
+title:  "2016: A Year in Photography"
 date:   2016-01-01  00:00:00
 ---
 
