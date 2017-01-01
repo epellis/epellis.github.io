@@ -1,7 +1,7 @@
 # Site settings
 title: Ned Ellis
-baseurl: "."
-url: nedellis.com
+# baseurl: ""
+url: "http://nedellis.com"
 
 # Build settings
 kramdown:
