@@ -12,25 +12,25 @@ stunning timelapses and perhaps even pictures of the moon and planets through a
 telescope.
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/JapanHouse.jpg)
-###### Japan House, Urbana Illinois
+Japan House, Urbana Illinois
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/Chicago.jpg)
-###### Chicago Skyline, Chicago, Illinois
+Chicago Skyline, Chicago, Illinois
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/SouthQuad.jpg)
-###### South Quad at Evening, Champaign, Illinois
+South Quad at Evening, Champaign, Illinois
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/Altgeld.jpg)
-###### Altgeld Tower at Sunset, Champaign, Illinois
+Altgeld Tower at Sunset, Champaign, Illinois
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/Kayak.jpg)
-###### Placid Lake, Lake Rabun, Georgia
+Placid Lake, Lake Rabun, Georgia
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/Cochran.jpg)
-###### Mirror Creek, Cochran Shoals, Georgia
+Mirror Creek, Cochran Shoals, Georgia
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/SeaIsland.jpg)
-###### Sunset's Gradient, Sea Island, Georgia
+Sunset's Gradient, Sea Island, Georgia
 
 ![]({{site.baseurl}}/images/PhotoPortfolio/Atlanta.jpg)
-###### Metro Skyline, Atlanta Georgia
+Metro Skyline, Atlanta Georgia
