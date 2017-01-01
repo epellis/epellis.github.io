@@ -1,7 +1,7 @@
 # Site settings
-title: slim
+title: Ned Ellis
 baseurl: "."
-url: "http://nedellis.com"
+url: http://nedellis.com
 
 # Build settings
 kramdown:
@@ -10,5 +10,5 @@ permalink: pretty
 
 # Third-party services
 # just leave someone empty to disable it
-google_analytics: 
-disqus_shortname: 
+google_analytics:
+disqus_shortname:
