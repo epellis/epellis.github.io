@@ -11,26 +11,26 @@ am looking automate a lot of photography with robotics in order to generate
 stunning timelapses and perhaps even pictures of the moon and planets through a
 telescope.
 
-![]({{site.baseurl}}/images/PhotoPortfolio/JapanHouse.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/JapanHouse.jpg)
 > Japan House, Urbana Illinois
 
-![]({{site.baseurl}}/images/PhotoPortfolio/Chicago.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/Chicago.jpg)
 > Chicago Skyline, Chicago, Illinois
 
-![]({{site.baseurl}}/images/PhotoPortfolio/SouthQuad.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/SouthQuad.jpg)
 > South Quad at Evening, Champaign, Illinois
 
-![]({{site.baseurl}}/images/PhotoPortfolio/Altgeld.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/Altgeld.jpg)
 > Altgeld Tower at Sunset, Champaign, Illinois
 
-![]({{site.baseurl}}/images/PhotoPortfolio/Kayak.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/Kayak.jpg)
 > Placid Lake, Lake Rabun, Georgia
 
-![]({{site.baseurl}}/images/PhotoPortfolio/Cochran.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/Cochran.jpg)
 > Mirror Creek, Cochran Shoals, Georgia
 
-![]({{site.baseurl}}/images/PhotoPortfolio/SeaIsland.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/SeaIsland.jpg)
 > Sunset's Gradient, Sea Island, Georgia
 
-![]({{site.baseurl}}/images/PhotoPortfolio/Atlanta.png)
+![]({{site.baseurl}}/images/PhotoPortfolio/Atlanta.jpg)
 > Metro Skyline, Atlanta Georgia
