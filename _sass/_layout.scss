@@ -5,7 +5,6 @@
     border-bottom: 1px solid $grey-color-light;
     text-align: center;
     padding: 1rem 0;
-    background-color: #33B5E5;
 }
 
 .site-title {
@@ -13,6 +12,8 @@
     font-weight: 300;
     letter-spacing: -1px;
     color: $grey-color-dark;
+    background-color: #33B5E5;
+
 
     &,
     &:hover {
