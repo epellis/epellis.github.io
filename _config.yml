@@ -1,6 +1,6 @@
 # Site settings
 title: Ned Ellis
-# baseurl: ""
+baseurl: "http://nedellis.com"
 url: "http://nedellis.com"
 
 # Build settings
