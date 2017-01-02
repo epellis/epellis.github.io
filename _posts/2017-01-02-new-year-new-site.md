@@ -4,7 +4,7 @@ title:  "New Year, New Site"
 date:   2017-01-02  00:00:00
 ---
 
-One of the more ugly items on my bucket list has been updating my website to make
+One of the uglier items on my bucket list has been updating my website to make
 blogging and editing pages much easier. Back in the days of old, to edit a page,
 I would have to edit on the html level, which led to a lot of time being spent
 tweaking the look and not as much time spent actually writing. To fix this, I have
