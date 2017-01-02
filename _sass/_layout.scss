@@ -5,7 +5,8 @@
     border-bottom: 1px solid $grey-color-dark;
     text-align: center;
     padding: 1rem 0;
-    background-color: $brand-color;
+    background: $brand-color;
+    background: linear-gradient(to bottom right, $brand-color, $off-brand-color);
 }
 
 .site-title {
