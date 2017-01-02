@@ -2,8 +2,8 @@
 title: Ned Ellis
 baseurl: ""
 url: "http://nedellis.com"
-colorA: :#33B5E5"
-colorB: :#33B5E5"
+colorA: :#348F50"
+colorB: :#56B4D3"
 
 # Build settings
 kramdown:

@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-dark;
     text-align: center;
     padding: 1rem 0;
 }
@@ -11,7 +11,7 @@
     font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: -1px;
-    color: $grey-color-light;
+    color: $grey-color-dark;
 
     &,
     &:hover {
