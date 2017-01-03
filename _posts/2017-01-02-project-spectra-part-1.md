@@ -64,7 +64,7 @@ of code that individually assigns each pixel a random color.
 
 You can find all of my rendering code at [Github][github-repo-link]
 
-'''java
+```java
 /* Iterate through each subpixel (e.g. red, green, blue) */
 for (int i = 0; i <  display.length; i++) {
   for (int j = 0; j <  display[0].length; j++) {
@@ -88,7 +88,7 @@ for (int i = 0; i <  display.length; i++) {
   }
 }
 **/
-'''
+```
 
 As you can see, this code takes a bit of processing power to push since it has to
 generate a random number for EVERY SUBPIXEL. Some quick math means that for every
@@ -96,7 +96,7 @@ frame, that's 192 numbers. Also, this code does not scale well to higher resolut
 
 Spectra Test V2's sole goal was to transition the dotted screen display into discreet squares and also make the algorithm scalable for any resolution. Here is a snippet of the new code used to render a matrix to screen.
 
-'''java
+```java
 void draw() {
   /* Iterate through each pixel and render it to screen */
   for (int i = 0; i < LEDCount; i++) {
@@ -118,7 +118,7 @@ void draw() {
   }
 }
 **/
-'''
+```
 
 As you can see, this code is not only much faster due to it's lack of floating
 point operations, but also totally scalable. LEDCount specifies the resolution of
@@ -134,7 +134,7 @@ To render this, two one-colored arrays were generated and then each pixel's symm
 this a possibility, I rather liked the modular function of the code as it made it
 easy to debug. Here is the part of my code that generated and averaged the arrays.
 
-'''java
+```java
 /* Assign initial values to display by iterating through each subpixel */
 for (int i = 0; i < LEDCount; i++) {
   for (int j = 0; j < LEDCount; j++) {
@@ -152,8 +152,7 @@ for (int i = 0; i < LEDCount; i++) {
     display[i][j][2] = (colorA[i][j][2] + colorB[LEDCount - i - 1][LEDCount - j - 1][2]) / 2;
   }
 }
-**/
-'''
+```
 
 ![]({{site.baseurl}}/images/SpectraRender/gradient3.png)
 
@@ -175,13 +174,13 @@ Spectra Test V4 took the greatness that V3 had and applied some easier ways to
 interpret a RGB Value and also added back in some of the random noise that V1 had
 characterized.
 
-'''java
+```java
 /* Set fill to color at pixel located at (i, j) */
 fill(display[i][j][0] + (random.nextInt(boundaries / 2) - boundaries), display[i][j][1] + (random.nextInt(boundaries / 2) - boundaries), display[i][j][2] + (random.nextInt(boundaries / 2) - boundaries));
 stroke(display[i][j][0], display[i][j][1], display[i][j][2]);
 rect(x1 , y1, x2, y2);  // Draw the rectangle
-**/
-'''
+```
+
 
 Spectra Test V5 is a new area for me, as only 50% of the activity cycle is spent rendering a gradient. The rest is spent rendering a crescent shaped moon, which
 is supposed to resemble the actual moon phase of that night. To do that, I once
