@@ -155,17 +155,17 @@ for (int i = 0; i < LEDCount; i++) {
 **/
 '''
 
-![]({{site.baseurl}}/images/SpectraRender/Gradient3.png)
+![]({{site.baseurl}}/images/SpectraRender/gradient3.png)
 
-![]({{site.baseurl}}/images/SpectraRender/Gradient5.png)
+![]({{site.baseurl}}/images/SpectraRender/gradient5.png)
 
 > Here you can see my first try at an algorithm, note the black corners.
 
-![]({{site.baseurl}}/images/SpectraRender/Gradient10.png)
+![]({{site.baseurl}}/images/SpectraRender/gradient10.png)
 
-![]({{site.baseurl}}/images/SpectraRender/Gradient11.png)
+![]({{site.baseurl}}/images/SpectraRender/gradient11.png)
 
-![]({{site.baseurl}}/images/SpectraRender/Gradient12.png)
+![]({{site.baseurl}}/images/SpectraRender/gradient12.png)
 
 > The new linear algorithm with some nice colors from UIGradients.
 
