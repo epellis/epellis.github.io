@@ -156,12 +156,15 @@ for (int i = 0; i < LEDCount; i++) {
 '''
 
 ![]({{site.baseurl}}/images/SpectraRender/Gradient3.png)
+
 ![]({{site.baseurl}}/images/SpectraRender/Gradient5.png)
 
 > Here you can see my first try at an algorithm, note the black corners.
 
 ![]({{site.baseurl}}/images/SpectraRender/Gradient10.png)
+
 ![]({{site.baseurl}}/images/SpectraRender/Gradient11.png)
+
 ![]({{site.baseurl}}/images/SpectraRender/Gradient12.png)
 
 > The new linear algorithm with some nice colors from UIGradients.
@@ -187,6 +190,7 @@ a circle. Here is some code that is essentially calculating the radius and then
 deciding if it is worth it to fill in the associated pixel.
 
 ![]({{site.baseurl}}/images/SpectraRender/Moon1.png)
+
 > A very simple rendering of a circle.
 
 ## Conclusion
