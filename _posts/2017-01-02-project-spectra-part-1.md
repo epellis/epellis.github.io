@@ -117,7 +117,6 @@ void draw() {
     }
   }
 }
-**/
 ```
 
 As you can see, this code is not only much faster due to it's lack of floating
