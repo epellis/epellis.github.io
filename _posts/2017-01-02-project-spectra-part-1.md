@@ -27,6 +27,7 @@ development are all fairly new fields to me and I am a very strong believer that
 the best way to learn is to make.
 
 Thus, my requirements are as follows:
+
 - Totally complete and ready to ship by early March
 - Contains at least one self-designed PCB
 - Uses internet connectivity to augment features
@@ -43,6 +44,7 @@ and unfinished, don't worry, that's because it is. Expect another post in the ne
 future with some more concrete goals.
 
 The Climate Display should feature
+
 - A gradient that is directly influenced by the local temperature, humidity and wind speed
 - An animation of the moon and it's phases, directly influenced by the current phase of our moon.
 
