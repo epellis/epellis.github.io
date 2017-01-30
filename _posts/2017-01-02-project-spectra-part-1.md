@@ -201,5 +201,8 @@ how to use Altium to build PCB's, and continue to use SolidWorks to make a CAD
 mockup of my final shell so that I can get a physical idea of what dimensions I'll
 be working with. Stay Tuned!
 
+[Part Two][part-two]
+
 [github-repo-link]: https://github.com/epellis/Spectra/tree/master/Processing
 [processing-site]: https://processing.org/
+[part-two]: {{site.baseurl}}2017/01/30/project-spectra-part-2/
