@@ -43,7 +43,7 @@ advice and criticism from one of my friends who taught me the basics of good
 schematic design and how to make your circuit readable. Here's an in-progress
 shot of what I've got so far:
 
-![]({{site.baseurl}}/images/SpectraTesting/kiCad.png)
+![]({{site.baseurl}}/images/SpectraTesting/kiCad.jpg)
 
 ## Ordering the Parts (Alternative title: Blowing Money Fast)
 
