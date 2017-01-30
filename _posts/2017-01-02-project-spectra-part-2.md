@@ -44,7 +44,7 @@ schematic design and how to make your circuit readable. Here's an in-progress
 shot of what I've got so far:
 
 ![]({{site.baseurl}}/images/SpectraTesting/KiCad.jpg)
-![]({{site.baseurl}}/images/SpectraTesting/fourLED.jpg)
+![]({{site.baseurl}}/images/SpectraTesting/KiCad.png)
 
 ## Ordering the Parts (Alternative title: Blowing Money Fast)
 
