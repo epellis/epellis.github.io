@@ -82,7 +82,7 @@ To generate the signal, I used the popular and widely ported [FastLED Libarary][
 to send the right signals to the Ws2812B. Here is a snippet of the starter code
 I used to test the matrix. To find all of my code, head to [Github][Github-repo-link].
 
-```C++
+```c_cpp
 void setup() {
   FastLED.addLeds<CHIPSET, DATA_PIN, COLOR_MODE>(leds, NUM_LEDS);
   for (int i = 0; i < NUM_LEDS; i++) {
@@ -106,7 +106,6 @@ void loop() {
     delay(DELAY);
   }
 }
-
 ```
 
 ## Problems Continue to Arise as Testing Continues
