@@ -70,7 +70,7 @@ again. That being said, I finally passed all of the drive tests and was able to 
 away with a completely "new" bike for about $130, which is pretty darn cheap if you
 know how much bikes typically cost.
 
-![]({{site.baseurl}}/images/new_old_bike/bike_on_trail.jpg)
+![]({{site.baseurl}}/images/new_old_bike/bike_on_trail1.jpg)
 
 Although I definitely don't have any future plans to build any future bikes I certainly
 appreciate the level of detail that this project took, as I now know just about every
