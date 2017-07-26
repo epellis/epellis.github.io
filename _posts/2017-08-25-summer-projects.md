@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Theseus' Bike"
-date:   2017-08-25  00:00:00
+date:   2017-07-25  00:00:00
 ---
 
 
-### New (Old) Bike
+# New (Old) Bike
 So my first project over the summer was really one that occurred out of necessity.
 Typically I use my bike for about 90% of my transportation so when I realized that
 my bottom bracket was rusted and even worse, seized there were only a few options.
@@ -17,7 +17,7 @@ my bottom bracket was rusted and even worse, seized there were only a few option
 3. Build a "Theseus's Ship Style" bike out of spare parts (This would take a lot of time
   and arguably be worse mechanically)
 
-# Part I: The Bike Co-Op
+## Part I: The Bike Co-Op
 I eventually settled upon option three because there is a pretty neat program at
 the U of I in which you can actually build your own bike thanks to the help of the
 [CU Bike Project][cu-bike-project-link]. This option is nice because you are literally
@@ -39,7 +39,7 @@ six or so mechanical elements that compose each wheel. I spent another large chu
 time making sure that the wheels were as frictionless as possible as well as ensuring
 that they were centered on the axles which would ensure a smooth ride later on.
 
-# Part II: The Ship (bike) of Theseus
+## Part II: The Ship (bike) of Theseus
 Next up was to assemble the drive-train of the bike, which is the same salvaged single
 speed freewheel pedals I used on my old bike. I really like the rather insane gearing ratios
 that enable me to get a lot of torque and speed as long as my legs are up to the task.
@@ -58,7 +58,7 @@ the brakes really were.
 
 ![]({{site.baseurl}}/images/new_old_bike/bike_completed2.jpg)
 
-# Part III: The Final Test
+## Part III: The Final Test
 After this my bike was almost complete, but I still needed to add grip tape as well as test
 drive it. The grip tape might have been one of the most interesting parts because I have
 never used a bike with drop handlebars before and was really looking forward to trying it out.
