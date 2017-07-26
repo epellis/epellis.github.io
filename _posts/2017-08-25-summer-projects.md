@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Summer might be over but look at all the things I did"
+title:  "Theseus' Bike"
 date:   2017-08-25  00:00:00
 ---
 
