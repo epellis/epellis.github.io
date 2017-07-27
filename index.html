@@ -16,6 +16,19 @@ layout: default
 	</section>
 
 	<section>
+		<h2 class="smallcap">posts</h2>
+		<ul class="post-list">
+			{% for post in site.posts limit:5 %}
+			<li>
+				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
+	</section>
+
+	<section>
 	<h2 class="smallcap">groups</h2>
 	<ul class="post-list">
 		<li>
@@ -31,7 +44,7 @@ layout: default
 	</section>
 
 	<section>
-	<h2 class="smallcap">interests</h2>
+	<h2 class="smallcap">Formal Interests</h2>
 	<ul class="post-list">
 		<li>
 			Control and Stabilization of Flying Platforms
@@ -46,15 +59,35 @@ layout: default
 	</section>
 
 	<section>
-		<h2 class="smallcap">posts</h2>
-		<ul class="post-list">
-			{% for post in site.posts limit:5 %}
-			<li>
-				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
+	<h2 class="smallcap">Informal Interests (Side Hustles)</h2>
+	<ul class="post-list">
+		<li>
+			X-Com, Kerbal Space Program, Faster than Light, Open TTD, Cities Skylines
+		</li>
+		<li>
+			Enders Game + Speaker for the Dead, The Expanse, 2001 A Space Odyssey, Thunderbirds
+		</li>
+		<li>
+			Richard Stallman, Linus Torvalds, Scott Manley, Alan Turning, John Von Neumann
+		</li>
+		<li>
+			Madeon, Beach House, Flamingosis, Glass Animals, Childish Gambino, Anderson .Paak
+		</li>
+	</ul>
+	</section>
+
+	<section>
+	<h2 class="smallcap">Other Links</h2>
+	<ul class="post-list">
+		<li>
+			<a href="http://roarbotics.weebly.com/updates">High School FRC Team</a>
+		</li>
+		<li>
+			<a href="https://pcpartpicker.com/list/qcB7Fd">My PC Parts List</a>
+		</li>
+		<li>
+			<a href="https://www.youtube.com/watch?v=t2jrxvK8lDE">High Altitude Ballooning (It's super awesome!)</a>
+		</li>
+	</ul>
 	</section>
 </div>
