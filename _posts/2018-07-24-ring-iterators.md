@@ -63,7 +63,7 @@ To fix these issues, I ended up making a RingBuf file with associated functions
 for most operations as well as static helper functions and internal data types.
 More or less, it looked like:
 
-```cpp
+```java
 uint16_t ringbuf_remaining(ringbuf_t* buf)
 {
     return abs(buf->head - buf->tail);
@@ -158,7 +158,7 @@ being very simple, just copying and pasting functions with small changes.
 Lets walk through the final result. First up are the data structures as they
 will be referenced later in the review:
 
-```cpp
+```java
 typedef struct riter_t {
     uint16_t idx;
     uint16_t size;
@@ -197,7 +197,7 @@ pointer, there is nothing stopping me from making a different struct with
 something else (like a `double`) as the base data type. Next, lets take a look
 at the function prototypes:
 
-```cpp
+```java
 /* ======== RING ITERATOR (RITER) ======== */
 /*
  * Manipulates an iterator that can be used as the index of
@@ -234,6 +234,7 @@ me why small articles and ideas such as this one are so neat and would love to
 have that kind of impact on someone else someday.
 
 Until Next Time,
+
     - epelesis
 
 [mp4-link]:https://courses.engr.illinois.edu/cs225/fa2017/mps/4/
