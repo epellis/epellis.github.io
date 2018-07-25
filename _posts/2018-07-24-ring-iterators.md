@@ -25,7 +25,7 @@ Course! :p
 
 [CS 225 MP4: Flood Fill][mp4-link]
 
-![My Floodfill!]({{site.baseurl}}/images/ring_iterators/floodfill.gif)
+![My Floodfill!]({{site.baseurl}}/floodfill.gif)
 
 ## The Problem
 Recently, I have been working on a serial console for a remote job and needed
