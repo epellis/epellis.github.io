@@ -38,7 +38,7 @@ head or tail and advance or reset the header to a multiple of the message size.
 My first thought was to work with a statically allocated array with head and
 tail pointers, as was taught in my ECE 220 Class.
 
-```c_cpp
+```c
 typedef struct {
     uint16_t head;
     uint16_t tail;
@@ -63,7 +63,7 @@ To fix these issues, I ended up making a RingBuf file with associated functions
 for most operations as well as static helper functions and internal data types.
 More or less, it looked like:
 
-```c_cpp
+```c
 uint16_t ringbuf_remaining(ringbuf_t* buf)
 {
     return abs(buf->head - buf->tail);
@@ -158,7 +158,7 @@ being very simple, just copying and pasting functions with small changes.
 Lets walk through the final result. First up are the data structures as they
 will be referenced later in the review:
 
-```c_cpp
+```c
 typedef struct riter_t {
     uint16_t idx;
     uint16_t size;
