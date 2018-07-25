@@ -25,7 +25,7 @@ Course! :p
 
 [CS 225 MP4: Flood Fill][mp4-link]
 
-![My Floodfill!]({{site.baseurl}}/floodfill.gif)
+![My Floodfill!](https://raw.githubusercontent.com/epellis/epellis.github.io/master/floodfill.gif)
 
 ## The Problem
 Recently, I have been working on a serial console for a remote job and needed
