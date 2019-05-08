@@ -2,137 +2,138 @@
 layout: default
 ---
 <div class="home">
-	<section>
-		<h2 class="smallcap">about</h2>
-		<p>Welcome to my website! I am Ned Ellis, a student at the University of
-			Illinois currently getting my B.S. in Computer Engineering. My main
-			area of focus is currently embedded systems with aerospace applications but
-			I also have a passion for "automating the boring stuff" with Python, be it
-			regular CPython, or more recently, MicroPython. In the past I have also
-			worked with Autonomous Drones, Robots, Medical Imaging Systems, NLP text
-			classification and many, many other side projects. Sadly I do not have
-			enough time to keep this blog up to date on a regular basis but check back
-			semianually to see what I am up to!
-		</p>
-		<p>Check me out on <a href="https://github.com/epellis">Github</a>.</p>
-	</section>
-
-	<section>
-		<h2 class="smallcap">posts</h2>
-		<ul class="post-list">
-			{% for post in site.posts limit:5 %}
-			<li>
-				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
-	</section>
-	
-	<section>
-	<h2 class="smallcap">What this website is</h2>
-	<ul class="post-list">
-		<li>A collection of ideas, experiences and observations I found important enough to share.</li>
-		<li>A tool to help me understand myself via reflection.</li>
-		<li>A thread of unfiltered and untouched ideas to help you understand my way of thinking.</li>
-	</ul>
-	</section>
-	
-	<section>
-	<h2 class="smallcap">What this website is not</h2>
-	<ul class="post-list">
-		<li>Professionally oriented. If I'm discussing a technical subject it is because I actually find it interesting. If this were not the case, my website would likely be hosted on LinkedIn.</li>
-		<li>A holistic view of Ned Ellis. Some experiences are hard to put into words, especially to strangers. This may change if I improve at writing or you get to know me personally.</li>
-		<li>A compuer science blog. I swear I will try to broaden the topic list soon!</li>
-	</ul>
-	</section>
-
-	<section>
-	<h2 class="smallcap">groups</h2>
-	<ul class="post-list">
-		<li>
-			<a href="http://satdev.ae.illinois.edu/about.html/">SatDev</a>
-		</li>
-		<li>
-			<a href="http://openlab.ece.illinois.edu/">ECE Open Lab</a>
-		</li>
-		<li>
-			<a href="http://systemdesign.illinois.edu/index.php">Engineering System Design Laboratory</a>
-		</li>	</ul>
-	</section>
+    <section>
+        <h2 class="smallcap">about</h2>
+        <p>Welcome to my website! I am Ned Ellis, a student at the University of
+            Illinois Urbana-Champaign currently getting my B.S. in Computer Engineering. Lately, I
+            have been interested in Distributed Systems, Virtualization (Languages and Systems),
+            and Networking. In the past, I have made my own Linux Kernel, and am currently
+            designing my own Programming Language. Sadly I do not have
+            enough time to keep this blog up to date on a regular basis but check back
+            semianually to see what I am up to!
+        </p>
+        <p>Check me out on <a href="https://github.com/epellis">Github</a>.</p>
+    </section>
 
     <section>
-	<h2 class="smallcap">Past groups</h2>
-	<ul class="post-list">
-		<li>
-			<a href="http://www.studentspacesystems.org/">Student Space Systems</a>
-		</li>
-		<li>
-			<a href="https://publish.illinois.edu/schnelloptics/">Schnell Optics</a>
-		</li>
-		<li>
-		    <a href="https://wiki.illinois.edu/wiki/display/PURE/Home/">P.U.R.E.</a>
-		</li>
-		<li>
-			<a href="http://cubesat.ae.illinois.edu/">S.A.S.S.I.</a>
-		</li>
-	</ul>
-	</section>
+        <h2 class="smallcap">posts</h2>
+        <ul class="post-list">
+            {% for post in site.posts limit:5 %}
+            <li>
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
+    </section>
 
-	<section>
-	<h2 class="smallcap">Side Hustles</h2>
-	<ul class="post-list">
-		<li>
-		    	Electric Longboards and Bikes (Vedder Electronic Speed Controller)
-		</li>
-		<li>
-			X-Com, Kerbal Space Program, Faster than Light, Open TTD, Cities Skylines
-		</li>
-		<li>
-			Speaker for the Dead, The Expanse, 2001 A Space Odyssey, Thunderbirds, Dune
-		</li>
-		<li>
-			Richard Stallman, Linus Torvalds, Scott Manley, Alan Turning, John Von Neumann, Chris Lattner
-		</li>
-		<li>
-			Madeon, Beach House, Flamingosis, Glass Animals, Childish Gambino, Anderson .Paak
-		</li>
-	</ul>
-	</section>
-	
-	<section>
-	<h2 class="smallcap">Computer Setups</h2>
-	<ul class="post-list">
-		<li>
-			"Svelte" :: General Purpose Development Station
-			   ||   Hardware :: Macbook Pro 15" 2017 2.8 GHz Core i7, Radeon Pro 555, 16 GB RAM
-			   ||   Software :: Sublime Text 3 + HomeBrew + MacOS Mojave Beta 10.14
-		</li>
-		<li>
-			"XPS" 	 :: Linux/Windows/Experimental/Backup Station
-			   ||   Hardware :: XPS 13" 2016 2.6 GHz Core i5, 8 GB RAM
-			   ||   Software :: Vim + Pacman + Manjaro XFCE 17.1
-		<li>
-			"Autumn"       :: Docker/Media/Gaming Server
-			   ||   (WIP) Hardware :: Mini ITX 2016, 3.2 GHz Core i5, 8 GB RAM
-			   ||   (WIP) Software :: Vim + Apt + Ubuntu Server 18.0.4
-		</li>
-	</ul>
-	</section>
+    <section>
+        <h2 class="smallcap">What this website is</h2>
+        <ul class="post-list">
+            <li>A collection of ideas, experiences and observations I found important enough to share.</li>
+            <li>A tool to help me understand myself via reflection.</li>
+            <li>A thread of unfiltered and untouched ideas to help you understand my way of thinking.</li>
+        </ul>
+    </section>
 
-	<section>
-	<h2 class="smallcap">Other Links</h2>
-	<ul class="post-list">
-		<li>
-			<a href="http://roarbotics.weebly.com/updates">High School FRC Team</a>
-		</li>
-		<li>
-			<a href="https://pcpartpicker.com/list/qcB7Fd">My PC Parts List</a>
-		</li>
-		<li>
-			<a href="https://www.youtube.com/watch?v=t2jrxvK8lDE">High Altitude Ballooning (It's super awesome!)</a>
-		</li>
-	</ul>
-	</section>
+    <section>
+        <h2 class="smallcap">What this website is not</h2>
+        <ul class="post-list">
+            <li>Professionally oriented. If I'm discussing a technical subject it is because I actually find it
+                interesting. If this were not the case, my website would likely be hosted on LinkedIn.</li>
+            <li>A holistic view of Ned Ellis. Some experiences are hard to put into words, especially to strangers. This
+                may change if I improve at writing or you get to know me personally.</li>
+            <li>A compuer science blog. I swear I will try to broaden the topic list soon!</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="smallcap">groups</h2>
+        <ul class="post-list">
+            <li>
+                <a href="http://satdev.ae.illinois.edu/about.html/">SatDev</a>
+            </li>
+            <li>
+                <a href="http://openlab.ece.illinois.edu/">ECE Open Lab</a>
+            </li>
+            <li>
+                <a href="http://systemdesign.illinois.edu/index.php">Engineering System Design Laboratory</a>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="smallcap">Past groups</h2>
+        <ul class="post-list">
+            <li>
+                <a href="http://www.studentspacesystems.org/">Student Space Systems</a>
+            </li>
+            <li>
+                <a href="https://publish.illinois.edu/schnelloptics/">Schnell Optics</a>
+            </li>
+            <li>
+                <a href="https://wiki.illinois.edu/wiki/display/PURE/Home/">P.U.R.E.</a>
+            </li>
+            <li>
+                <a href="http://cubesat.ae.illinois.edu/">S.A.S.S.I.</a>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="smallcap">Side Hustles</h2>
+        <ul class="post-list">
+            <li>
+                Electric Longboards and Bikes (Vedder Electronic Speed Controller)
+            </li>
+            <li>
+                X-Com, Kerbal Space Program, Faster than Light, Open TTD, Cities Skylines
+            </li>
+            <li>
+                Speaker for the Dead, The Expanse, 2001 A Space Odyssey, Thunderbirds, Dune
+            </li>
+            <li>
+                Richard Stallman, Linus Torvalds, Scott Manley, Alan Turning, John Von Neumann, Chris Lattner
+            </li>
+            <li>
+                Madeon, Beach House, Flamingosis, Glass Animals, Childish Gambino, Anderson .Paak
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="smallcap">Computer Setups</h2>
+        <ul class="post-list">
+            <li>
+                "Svelte" :: General Purpose Development Station
+                || Hardware :: Macbook Pro 15" 2017 2.8 GHz Core i7, Radeon Pro 555, 16 GB RAM
+                || Software :: Sublime Text 3 + HomeBrew + MacOS Mojave Beta 10.14
+            </li>
+            <li>
+                "XPS" :: Linux/Windows/Experimental/Backup Station
+                || Hardware :: XPS 13" 2016 2.6 GHz Core i5, 8 GB RAM
+                || Software :: Vim + Pacman + Manjaro XFCE 17.1
+            <li>
+                "Autumn" :: Docker/Media/Gaming Server
+                || (WIP) Hardware :: Mini ITX 2016, 3.2 GHz Core i5, 8 GB RAM
+                || (WIP) Software :: Vim + Apt + Ubuntu Server 18.0.4
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="smallcap">Other Links</h2>
+        <ul class="post-list">
+            <li>
+                <a href="http://roarbotics.weebly.com/updates">High School FRC Team</a>
+            </li>
+            <li>
+                <a href="https://pcpartpicker.com/list/qcB7Fd">My PC Parts List</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=t2jrxvK8lDE">High Altitude Ballooning (It's super awesome!)</a>
+            </li>
+        </ul>
+    </section>
 </div>

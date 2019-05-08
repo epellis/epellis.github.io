@@ -1,7 +1,3 @@
-# slim
+# epellis.github.io
 
-slim is just a slim jekyll theme. [Demo](http://syaning.com/slim).
-
-### License
-
-MIT
+Uses the [Slim](http://syaning.com/slim) theme for Jekyll.
